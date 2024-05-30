@@ -62,7 +62,7 @@ def get_args():
     parser.add_argument("--model_path", type=str, default="deepseek-ai/deepseek-coder-6.7b-instruct")
     # parser.add_argument("--model_path", type=str, default="ibm-granite/granite-3b-code-base")
     # parser.add_argument("--dataset_name", type=str, default="HuggingFaceH4/CodeAlpaca_20K")
-    parser.add_argument("--dataset_name", type=str, default="/root/autodl-tmp/dev/datasets/dataset-full")
+    parser.add_argument("--dataset_name", type=str, default="./generate-datasets/dataset-full")
     # parser.add_argument("--subset", type=str)
     parser.add_argument("--split", type=str)
     parser.add_argument("--size_valid_set", type=int, default=150)
