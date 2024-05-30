@@ -6,3 +6,5 @@ sympy==1.12
 pebble 
 timeout-decorator 
 attrdict
+datasets==2.12.0
+huggingface-hub==0.17.1
